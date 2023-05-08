@@ -1,0 +1,144 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Contact\.git\COMMIT_EDITMSG" />
+    <None Include="wwwroot\Contact\.git\config" />
+    <None Include="wwwroot\Contact\.git\description" />
+    <None Include="wwwroot\Contact\.git\FETCH_HEAD" />
+    <None Include="wwwroot\Contact\.git\HEAD" />
+    <None Include="wwwroot\Contact\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\push-to-checkout.sample" />
+    <None Include="wwwroot\Contact\.git\hooks\update.sample" />
+    <None Include="wwwroot\Contact\.git\index" />
+    <None Include="wwwroot\Contact\.git\info\exclude" />
+    <None Include="wwwroot\Contact\.git\logs\HEAD" />
+    <None Include="wwwroot\Contact\.git\logs\refs\heads\main" />
+    <None Include="wwwroot\Contact\.git\logs\refs\remotes\origin\main" />
+    <None Include="wwwroot\Contact\.git\objects\05\432986a52b0f912ca393ebe5ef90b6d152e9bb" />
+    <None Include="wwwroot\Contact\.git\objects\06\fa6e678582a1fe6001379f77308d47b44ae2ee" />
+    <None Include="wwwroot\Contact\.git\objects\08\365ac84d29be71b6b8f4481cdbbcae54a36033" />
+    <None Include="wwwroot\Contact\.git\objects\10\c4eeb8355ffd7a51fe733cd15a0bd3cd5f9ee7" />
+    <None Include="wwwroot\Contact\.git\objects\14\72dec059b31e556f29fba41de840dc4add9c4f" />
+    <None Include="wwwroot\Contact\.git\objects\15\187e63785586686d83bd31638bcbafc731d09a" />
+    <None Include="wwwroot\Contact\.git\objects\18\a3e753629f083ebf8f842dea2898cd65fa06e5" />
+    <None Include="wwwroot\Contact\.git\objects\1e\4328fb9cc6a68e65b8dc093c7f5a0a81731a37" />
+    <None Include="wwwroot\Contact\.git\objects\1e\e89d4368d31a368817a842f14d53f7a64c3038" />
+    <None Include="wwwroot\Contact\.git\objects\20\a352d19bce045ca6ff126a2df78b91d8193201" />
+    <None Include="wwwroot\Contact\.git\objects\20\b1cb4a5e6658df38a12ef2ecb71c6013876597" />
+    <None Include="wwwroot\Contact\.git\objects\20\baa1db5fdf9e22655a0f851c4401d36b9e7ef9" />
+    <None Include="wwwroot\Contact\.git\objects\22\12fcd34b69af4765e3022f2c1ae50c45a60406" />
+    <None Include="wwwroot\Contact\.git\objects\22\8ea59d9c0d7877ebda4fb5a6d781496bf4e521" />
+    <None Include="wwwroot\Contact\.git\objects\23\7a1993fd79e801dc3a28148d4acf73e49ca45a" />
+    <None Include="wwwroot\Contact\.git\objects\24\fcc04c4ed56775bffd4597800eb544bac91178" />
+    <None Include="wwwroot\Contact\.git\objects\25\756fec40a5a86d6ba11a949f57a9af0ce1f8a9" />
+    <None Include="wwwroot\Contact\.git\objects\29\4ee966c8b135ea3e299b7ca49c450e78870b59" />
+    <None Include="wwwroot\Contact\.git\objects\2c\bab9ca97723bc24c50315a0a9bd155db4e0aa5" />
+    <None Include="wwwroot\Contact\.git\objects\2d\5009c0c7c3636980b9c346f4722511f130f835" />
+    <None Include="wwwroot\Contact\.git\objects\2e\49488cd9dda1785264789638cb0e0d711d6ae2" />
+    <None Include="wwwroot\Contact\.git\objects\30\31fc6a4de32babbf7a3bb68de1c4d17154f200" />
+    <None Include="wwwroot\Contact\.git\objects\31\43401dda159aede2cc74d8a87446949a784dd2" />
+    <None Include="wwwroot\Contact\.git\objects\32\9fa98602d277fa342e88dd2e00f963e33cf54d" />
+    <None Include="wwwroot\Contact\.git\objects\33\11d585145b1cc1b9581e914acbb32d8542b4f5" />
+    <None Include="wwwroot\Contact\.git\objects\33\45156c3dbd26909af596285648fd73fcb80601" />
+    <None Include="wwwroot\Contact\.git\objects\33\b2bb80055cc480e797de704925acaba4ba7d7d" />
+    <None Include="wwwroot\Contact\.git\objects\34\235d6be3215cc8c01f52445fe925d20a2810ce" />
+    <None Include="wwwroot\Contact\.git\objects\35\e1043dcd98b0e4e363b73b64195e5a2ad7df80" />
+    <None Include="wwwroot\Contact\.git\objects\36\4abdd8fd47dfa88d520365d82a4ad126d4b1a5" />
+    <None Include="wwwroot\Contact\.git\objects\39\7d0e292b0cdea53a6ebcaba50e051d5a454c01" />
+    <None Include="wwwroot\Contact\.git\objects\3b\ad2b32412258b9b36b14bf845ff0ed29620a8b" />
+    <None Include="wwwroot\Contact\.git\objects\3e\38509e2eec4f24bf556f3e5bdfa664b10ce011" />
+    <None Include="wwwroot\Contact\.git\objects\49\d1fcfbe21c48a65f5037ab83172fa6dd03ba30" />
+    <None Include="wwwroot\Contact\.git\objects\50\87c2a644223a95984baefdb74f39a287fdfd9a" />
+    <None Include="wwwroot\Contact\.git\objects\53\3970857c512cd30d2fd195ba3008e5e118649a" />
+    <None Include="wwwroot\Contact\.git\objects\5b\8785aae874179e36816ef1fc254e36d6f3b293" />
+    <None Include="wwwroot\Contact\.git\objects\5c\669838142926ffb414462436e8c9b35580cdf2" />
+    <None Include="wwwroot\Contact\.git\objects\5d\ae0ed4ec38009438bfd418623b5d50a04c3729" />
+    <None Include="wwwroot\Contact\.git\objects\6a\7b087c3ad9775a500ca8031c579aca72d63035" />
+    <None Include="wwwroot\Contact\.git\objects\6f\9509c88bed7080d496fc5e1d87a9315e30549d" />
+    <None Include="wwwroot\Contact\.git\objects\71\d2ab38a9c10f6ea17bfef5c125f1a60fa05b19" />
+    <None Include="wwwroot\Contact\.git\objects\78\be1638d508b59bf627432abb6627afc6e64750" />
+    <None Include="wwwroot\Contact\.git\objects\89\fd1ab86d2cd156566eda3ff9706ecb4fd97078" />
+    <None Include="wwwroot\Contact\.git\objects\8b\057c38959287829417c9bc4680e8d3120a6374" />
+    <None Include="wwwroot\Contact\.git\objects\8b\280b98fa2fa261aa4b0f8fd061f772073ef83e" />
+    <None Include="wwwroot\Contact\.git\objects\8e\e99721bb81b59a5e1ceee1d3256b15f907d96b" />
+    <None Include="wwwroot\Contact\.git\objects\96\fe629ab9d145ce67a18c690be9782a2164b9f4" />
+    <None Include="wwwroot\Contact\.git\objects\97\c4196f5565e56a244609b8120505488331b152" />
+    <None Include="wwwroot\Contact\.git\objects\99\746e301c59192c23f853e73a278ebb19da65e4" />
+    <None Include="wwwroot\Contact\.git\objects\9b\5206bcc60781905d111863bdb6232d90490f33" />
+    <None Include="wwwroot\Contact\.git\objects\9b\c8cf03cf9c03a625e4577e4ff9dbaf97880721" />
+    <None Include="wwwroot\Contact\.git\objects\9d\03461b653373f7cda3b4af104c6bca07f9892b" />
+    <None Include="wwwroot\Contact\.git\objects\a5\29d883c76f026420aed8dbcbd4c245ed9a7c0b" />
+    <None Include="wwwroot\Contact\.git\objects\a5\81fe2f8d0e288f0bfdf8c96c94e03eec68793a" />
+    <None Include="wwwroot\Contact\.git\objects\a5\cc5e584f3c993e3d2dd58a55c9984814d10daf" />
+    <None Include="wwwroot\Contact\.git\objects\b2\76cbae8ca8390107c7eb5dc58fa702e9ee98f4" />
+    <None Include="wwwroot\Contact\.git\objects\b3\1fc5dc6037e4634d743ba223525c7ca3f75e3c" />
+    <None Include="wwwroot\Contact\.git\objects\b3\6a66a6c454fb901133b8bce089a5ff7f74f871" />
+    <None Include="wwwroot\Contact\.git\objects\b7\8c8418776ff81d17f17688f6027ac552a67f8a" />
+    <None Include="wwwroot\Contact\.git\objects\b8\757835189b014be0925f392538b8805472ae3d" />
+    <None Include="wwwroot\Contact\.git\objects\ba\6558ba4aab80a51d593d822eb637969745c1a4" />
+    <None Include="wwwroot\Contact\.git\objects\be\520aff50e16fae29f9aea22c4e2595aea5a538" />
+    <None Include="wwwroot\Contact\.git\objects\c5\63fd76af31d39d248f817fe6c533cc8f0dcbd7" />
+    <None Include="wwwroot\Contact\.git\objects\c8\2d92c67db438e571d8073a0b1c1de7bbcd8cef" />
+    <None Include="wwwroot\Contact\.git\objects\ca\2eb44b33bc4e73b8e9287569ad2c2b2602f436" />
+    <None Include="wwwroot\Contact\.git\objects\ce\8731b07ae3aa63b3af28ce5b82404e92c24c35" />
+    <None Include="wwwroot\Contact\.git\objects\d1\55068cd9497bb7d125cc45c9fa369d40630022" />
+    <None Include="wwwroot\Contact\.git\objects\db\e14e12146d7c3a0b561cc926728baa4f11b691" />
+    <None Include="wwwroot\Contact\.git\objects\dc\66a48f3ab91297cac853adc8cf06a7af0c49a9" />
+    <None Include="wwwroot\Contact\.git\objects\df\6645728f5bafcf3f7dae9a0891c78595146dc7" />
+    <None Include="wwwroot\Contact\.git\objects\df\e0770424b2a19faf507a501ebfc23be8f54e7b" />
+    <None Include="wwwroot\Contact\.git\objects\e1\72a80d35b40b25af6d3e3209241acf22bc45c8" />
+    <None Include="wwwroot\Contact\.git\objects\e3\3adc35bc9df31dfcbadeac2382643b25aaa92d" />
+    <None Include="wwwroot\Contact\.git\objects\e5\1932ce5b4306818a103768116951f694892dd8" />
+    <None Include="wwwroot\Contact\.git\objects\e7\36df9e34ddd71910d841e84941a2bf25dd1c6d" />
+    <None Include="wwwroot\Contact\.git\objects\e7\ecd8d6d09e24ea418c33f1d38f4ec7004addfb" />
+    <None Include="wwwroot\Contact\.git\objects\ed\9372f8ea0fbaa04f42630a48887e4b38945345" />
+    <None Include="wwwroot\Contact\.git\objects\f0\0a7edb234e9f7f66e97cb9348aa0535d150d06" />
+    <None Include="wwwroot\Contact\.git\objects\f4\ca9b24ba13e964450fef6135b85e47cf109aa0" />
+    <None Include="wwwroot\Contact\.git\objects\f5\f3603e07a7137e8c3baebfcb18a9f14303fc46" />
+    <None Include="wwwroot\Contact\.git\objects\f7\936cc1e789eea5438d576d6b12de20191da09d" />
+    <None Include="wwwroot\Contact\.git\objects\fa\2b8f216f39bf1dda807f1a2347d12bdce8721b" />
+    <None Include="wwwroot\Contact\.git\objects\ff\f184065cf555e0724004dcd1040330398b4c4c" />
+    <None Include="wwwroot\Contact\.git\refs\heads\main" />
+    <None Include="wwwroot\Contact\.git\refs\remotes\origin\main" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Contact\.git\objects\info\" />
+    <Folder Include="wwwroot\Contact\.git\objects\pack\" />
+    <Folder Include="wwwroot\Contact\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+
+		<div class="container-fluid p-0">
+			<div class="row m-0">
+				<div class="col-xl-5 col-lg-5 p-0">
+					<div class="main-left-area h-100">
+	@await Component.InvokeAsync("Info")
+						@await Component.InvokeAsync("Languages")
+							@await Component.InvokeAsync("Skills")
+
+						<div class="social-links">
+							<a href="https://tr.linkedin.com/in/merve-al%C4%B1c%C4%B1-b7a85b21b?trk=people-guest_people_search-card"><i class="fa fa-linkedin"></i></a>
+							<a href="https://www.instagram.com/merveealici/?hl=tr"><i class="fa fa-instagram"></i></a>
+							<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-7">
+					<div class="main-right-area">
+						@await Component.InvokeAsync("Experience")
+						@await Component.InvokeAsync("Education")
+						@await Component.InvokeAsync("Reference")
+						<section>
+						<div class="skill-section">
+						<div class="section-title">
+								<h2>İlgi Alanları</h2>
+							</div>
+							<div class="icon-box-area spad">
+								<div class="icon-box">
+									<i class="flaticon-013-chess-1"></i>
+									<p>Oyun Oynamak</p>
+								</div>
+								<div class="icon-box">
+									<i class="flaticon-035-tent"></i>
+									<p>Kamp Yapmak</p>
+								</div>
+							</div>
+						</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>

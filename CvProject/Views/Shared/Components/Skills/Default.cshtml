@@ -1,0 +1,12 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Skills> 
+							<div class="section-title">
+								<h2>Beceriler</h2>
+							</div>
+							<div class="skills">
+								@foreach(var item in Model){
+								<div class="single-progress-item">
+									<div class="progress-bar-style" data-progress="@item.SkillsPercent"></div>
+									<p>@item.SkillsName</p>
+								</div>
+								}
+							</div>

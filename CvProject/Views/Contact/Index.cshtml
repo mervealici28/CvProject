@@ -1,0 +1,177 @@
+﻿@inject Microsoft.Extensions.Configuration.IConfiguration _config;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>İletişim</title>
+    <link href="~/Contact/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/Contact/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/Contact/assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="~/Contact/assets/css/owl.css">
+    <link rel="stylesheet" href="~/Contact/assets/css/lightbox.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+</head>
+
+<body>
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-9 align-self-center">
+                    @if (ViewBag.Response != null)
+                    {
+                        @Html.Raw(ViewBag.Response)
+                    }
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <br />
+                            <form id="contact" action="" method="post">
+
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <h2>Mesaj Yaz...</h2>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <fieldset>
+                                            <input name="ContactUserName" type="text" id="name" placeholder="Adınız..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <fieldset>
+                                            <input name="ContactMail" type="text" id="email" placeholder="E-mail Adresiniz..." required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="ContactMessage" type="text" class="form-control" id="message" placeholder="Mesajınız..." required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <br />
+                                    <div class="g-recaptcha" data-sitekey="@_config["GoogleReCaptcha:PublicKey"]"></div>
+                                    <div class="col-lg-12">
+                                        <br />
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">Gönder</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3">
+                    <br />
+                   					<div class="col-md-8 text-md-right header-buttons">
+						<a href="/About/Index" class="site-btn" style="color:white;border: 2px solid white;padding: 14px 46px; position: absolute;left: 1350px; top: 150px;">CV Görüntüle</a>
+ 
+					</div>
+                    <br />
+                                             <br />
+                    <div class="right-info">
+
+                        <ul>
+
+                            <li>
+                                <h6>Telefon</h6>
+                                <p style="color:white;">0541 620 30 27</p>
+                            </li>
+                            <li>
+                                <h6>E-mail</h6>
+                                <p style="color:white;">merve.alici@autoking.com.tr</p>
+                            </li>
+                            <li>
+                                <h6>Adres</h6>
+                                <p style="color:white;">İstanbul</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <br>
+            <p>
+                © @DateTime.Now.Year Tüm Hakları Saklıdır.| Design by MA
+                <br>
+
+                <br>
+
+            </p>
+        </div>
+    </section>
+
+    <script src="~/Contact/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Contact/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/Contact/assets/js/isotope.min.js"></script>
+    <script src="~/Contact/assets/js/owl-carousel.js"></script>
+    <script src="~/Contact/assets/js/lightbox.js"></script>
+    <script src="~/Contact/assets/js/tabs.js"></script>
+    <script src="~/Contact/assets/js/video.js"></script>
+    <script src="~/Contact/assets/js/slick-slider.js"></script>
+    <script src="~/Contact/assets/js/custom.js"></script>
+    <script>
+
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
+   left: 1350px;

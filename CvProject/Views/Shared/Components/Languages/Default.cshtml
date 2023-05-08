@@ -1,0 +1,11 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Language> 
+						<section class="language-section spad">
+							<div class="section-title">
+								<h2>Diller</h2>
+							</div>
+							<ul class="language-progress">
+								@foreach(var item in Model){
+								<li>@item.LanguageName <div class="lan-prog" data-lanprogesss="@item.LanguagePercent"></div></li>
+								}
+							</ul>
+						</section>

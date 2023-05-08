@@ -1,0 +1,49 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> CV </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Civic - CV Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="~/cvmaster/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="~/cvmaster/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="~/cvmaster/css/flaticon.css"/>
+	<link rel="stylesheet" href="~/cvmaster/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="~/cvmaster/css/magnific-popup.css"/>
+	<link rel="stylesheet" href="~/cvmaster/css/style.css"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>	
+	<div class="home-four-style">
+		 @await Html.PartialAsync("Header")
+		@RenderBody()
+	</div>
+	 @await Html.PartialAsync("Footer") 
+
+	<script src="~/cvmaster/js/jquery-2.1.4.min.js"></script>
+	<script src="~/cvmaster/js/bootstrap.min.js"></script>
+	<script src="~/cvmaster/js/owl.carousel.min.js"></script>
+	<script src="~/cvmaster/js/magnific-popup.min.js"></script>
+	<script src="~/cvmaster/js/circle-progress.min.js"></script>
+	<script src="~/cvmaster/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<EntityLayer.Concrete.About> 
+						<section class="intro-section">
+							@foreach(var item in Model){
+							<figure class="hero-image">
+								<img src="~/cvmaster/img/picture.jfif" alt="" width="300px" height="400px">
+							</figure>
+							<div class="hero-text">
+								<h2>@item.Name</h2>
+							
+							</div>
+								<p>@item.Description</p>
+							<div class="hero-info pt-5">
+								<h2>Genel Bilgiler</h2>
+								<ul>
+									<li><span>Doğum Tarihi</span>   @(((DateTime)item.Birthday).ToString("dd-MMM-yyyy"))</li>
+									<li><span>Adres</span>@item.Location</li>
+									<li><span>E-mail</span>@item.Mail</li>
+									<li><span>Telefon </span>@item.Phone</li>
+								</ul>
+							</div>}
+						</section>

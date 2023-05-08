@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a0d98696-981a-4376-bd10-cecd2e8d14d2": {
+      "ProjectGuid": "a0d98696-981a-4376-bd10-cecd2e8d14d2",
+      "DisplayName": "CvProject",
+      "ColorIndex": 0
+    },
+    "434f946c-c168-47d6-94f8-81ac622f7f5e": {
+      "ProjectGuid": "434f946c-c168-47d6-94f8-81ac622f7f5e",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "052efde8-db8d-4448-bf95-f57d5a4bf69c": {
+      "ProjectGuid": "052efde8-db8d-4448-bf95-f57d5a4bf69c",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "616ea7bb-aa70-4d78-9b1d-060dd787292a": {
+      "ProjectGuid": "616ea7bb-aa70-4d78-9b1d-060dd787292a",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

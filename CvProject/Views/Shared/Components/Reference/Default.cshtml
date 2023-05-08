@@ -1,0 +1,16 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Reference> 
+						<section class="review-section spad">
+							<div class="section-title">
+								<h2>Referansalar</h2>
+							</div>
+							<div class="review-slider owl-carousel">
+								<div class="single-review">
+									<div class="qut">“</div>
+									@foreach(var item in Model){
+																			<h3>@item.ReferenceName</h3>
+									<h4>@item.ReferenceTask</h4>
+									<p> @item.ReferenceMail / @item.ReferencePhone</p>
+}
+								</div>
+							</div>
+						</section>
